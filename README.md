@@ -6,3 +6,5 @@ NavBar link hover effects adapted from https://css-tricks.com/css-link-hover-eff
 
 Timeline from portfolio adapted for experience.
 https://jtom.me/portfolio/
+
+Testing git integration...
