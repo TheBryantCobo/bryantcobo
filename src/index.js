@@ -5,17 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserHistory } from 'history';
 
-const history = createBrowserHistory();
-
-const path = (/#!(\/.*)$/.exec(window.location.hash) || [])[1];
-
-console.log('path: ' + window.location.hash);
-
-if (path) {
-  console.log('replace: ' + path);
-  history.replace(path);
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
