@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className='footer'>
         <div className='flex flexResponsive flexJustifyBetween flexAlignItemsCenter'>
           <div className='footer--left'>
-            <a href='https://www.bryantcobo.com'>© 2022 Bryant Cobarrubias</a>
+            <a href='/'>© 2022 Bryant Cobarrubias</a>
           </div>
           <div className='footer--nav'>
             <ul>

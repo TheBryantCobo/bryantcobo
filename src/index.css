@@ -460,21 +460,39 @@ nav li:last-child:after {
   transform: rotate(-4deg);
 }
 
-.form-container {
+.contact-yt {
+  width: 90%;
+  margin: 3px;
+}
+
+.contact-yt:hover {
+  transform: scale(1.02);
+  transform: rotate(-4deg);
+}
+
+.email-container {
   float: right;
   display: inline;
+  width: 55%;
+  margin-left: 5px;
 }
 
-.form-container input {
-  height: 1.5rem;
-  width: 100%;
-  line-height: 1.5rem;
+.video-container {
+  float: right;
+  display: inline;
+  width: 55%;
+  margin-left: 5px;
 }
 
-.form-container textarea {
-  height: 3rem;
-  width: 100%;
-  line-height: 3rem;
+.video-logo {
+  float: left;
+  width: 20%;
+}
+
+.video-desc {
+  float: left;
+  width: 70%;
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 350px) {
@@ -518,7 +536,14 @@ nav li:last-child:after {
     margin: 3px;
   }
 
-  .form-container {
+  .email-container {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  .video-container {
+    width: 100%;
     float: none;
     display: block;
   }

@@ -52,14 +52,7 @@ const App = () => {
               element={
                 <Page
                   title='Contact'
-                  subtitle={
-                    <>
-                      Need help with your project? Let's chat. Feel free to
-                      contact me via email at{' '}
-                      <a href='mailto:me@bryantcobo.com'>me@bryantcobo.com</a>{' '}
-                      or reach out on social media.
-                    </>
-                  }
+                  subtitle={<>Need help with your project? Let's chat.</>}
                   mainBody={<Contact />}
                 />
               }
