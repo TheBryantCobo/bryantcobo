@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
@@ -28,24 +28,8 @@ const App = () => {
     <div className='app'>
       <NavBar />
       <main>
-        <Router>
+        <Router hashType='slash'>
           <Routes>
-            <Route
-              exact
-              path='/'
-              element={
-                <Page
-                  title="Hello.  I'm Bryant."
-                  subtitle={
-                    <>
-                      I'm a Wisconsin based full-stack C#.NET, React, Node.js,
-                      and SQL developer.
-                    </>
-                  }
-                  mainBody={<Home />}
-                />
-              }
-            />
             <Route
               path='/projects'
               element={
@@ -62,6 +46,7 @@ const App = () => {
                 />
               }
             />
+
             <Route
               path='/contact'
               element={
@@ -76,6 +61,23 @@ const App = () => {
                     </>
                   }
                   mainBody={<Contact />}
+                />
+              }
+            />
+
+            <Route
+              path='/'
+              exact
+              element={
+                <Page
+                  title="Hello.  I'm Bryant."
+                  subtitle={
+                    <>
+                      I'm a Wisconsin based full-stack C#.NET, React, Node.js,
+                      and SQL developer.
+                    </>
+                  }
+                  mainBody={<Home />}
                 />
               }
             />
