@@ -1,9 +1,7 @@
-import React, { useState, useContext } from 'react';
-
 const Home = () => {
   return (
     <>
-      <h2>About me</h2>
+      {/* <h2>About me</h2>
       <p>
         I enjoy writing software to solve problems. For several years I helped
         teachers use technology in thier classrooms. Presently, I'm the lead
@@ -93,7 +91,7 @@ const Home = () => {
           Consulted with clients to understand goals and tailor solution to fit
           their needs. Integrated disparate systems to create unified solutions.
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

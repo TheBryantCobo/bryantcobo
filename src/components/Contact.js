@@ -1,64 +1,30 @@
 import React from 'react';
-
+import { Envelope } from './Graphic';
 const Contact = () => {
   return (
-    <div>
-      <section className='social-container'>
-        <h3>Find me on social</h3>
-        <a
-          href='https://www.facebook.com/bryantcobo'
-          target='_blank'
-          rel='noopener'
-        >
-          <img src='/images/facebook.png' className='social-icon' />
-        </a>
-        <a href='https://twitter.com/bryantcobo' target='_blank' rel='noopener'>
-          <img src='/images/twitter.png' className='social-icon' />
-        </a>
-        <a
-          href='https://www.linkedin.com/in/bryantcobarrubias/'
-          target='_blank'
-          rel='noopener'
-        >
-          <img src='/images/linkedin.png' className='social-icon' />
-        </a>
-        <a
-          href='https://www.instagram.com/hemageeking/'
-          target='_blank'
-          rel='noopener'
-        >
-          <img src='/images/instagram.png' className='social-icon' />
-        </a>
-      </section>
-      <section className='email-container'>
-        <h3>Send me an email</h3>
-        <div>
-          Feel free to contact me via email at{' '}
-          <a href='mailto:me@bryantcobo.com'>me@bryantcobo.com</a> or reach out
-          on social media.
+    <section className='contact'>
+      <div className='anchor' id='contact'></div>
+      <div className='container'>
+        <div className='content'>
+          <h2>Contact</h2>
+          <div className='contact--hello white-text'>Say Hello</div>
+
+          <div className='contact--message lgray-text'>
+            I am not currently looking for full-time opportunities. But, I am
+            open to freelancing projects. My inbox is always open.
+          </div>
+
+          <div className='project--link'>
+            <a href='mailto:me@bryantcobo.com' className='contact--button'>
+              <span className='contact--button-icon'>
+                <Envelope width='15' height='15' />
+              </span>
+              Send Email
+            </a>
+          </div>
         </div>
-      </section>
-      <section className='video-container'>
-        <h3>Video tutorials</h3>
-        <div className='video-logo'>
-          <a
-            href='https://www.youtube.com/c/edtechcafe'
-            target='_blank'
-            rel='noopener'
-          >
-            <img src='/images/youtube.png' className='contact-yt' />
-          </a>
-        </div>
-        <div className='video-desc'>
-          Have a look at my{' '}
-          <a href='youtube.com/c/edtechcafe' target='_blank' rel='noopener'>
-            technology tutorial channel
-          </a>
-          . I started it while working in public schools.
-        </div>
-      </section>
-      <div className='clearfix'></div>
-    </div>
+      </div>
+    </section>
   );
 };
 
