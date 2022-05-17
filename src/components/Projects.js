@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, ExternalLink, YouTube } from './Graphic';
+import { GitHub, ExternalLink, YouTube, Figma } from './Graphic';
 
 const Projects = () => {
   const projects = [
@@ -47,6 +47,12 @@ const Projects = () => {
           img: <GitHub width='20' height='20' />,
           url: 'https://github.com/TheBryantCobo/bryantcobo',
           title: 'GitHub',
+        },
+        {
+          id: 'link-2-2',
+          img: <Figma width='20' height='20' />,
+          url: 'https://www.figma.com/file/ypcPvV09LTa2Pqvsgh9T9G/BryantCobo.com-Design',
+          title: 'Figma',
         },
       ],
       techs: ['React', 'HTML/CSS'],
