@@ -810,6 +810,10 @@ footer {
   .jobdesc .term {
     color: var(--lgreen);
   }
+
+  .contact--message {
+    max-width: 20em;
+  }
 }
 /* 481px — 768px: iPads, Tablets - site needs to collapse at 875 */
 @media only screen and (max-width: 875px) {
@@ -931,6 +935,10 @@ footer {
   }
   .project--title {
     position: relative;
+  }
+
+  .project--img {
+    margin: 0;
   }
 
   /* Move social icons to footer */

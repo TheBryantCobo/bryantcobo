@@ -20,6 +20,10 @@ const NavBar = () => {
     setHamActive(!hamActive);
   };
 
+  const linkClicked = () => {
+    setHamActive(false);
+  };
+
   useEffect(() => {
     const hamburger = document.querySelector('.hamburger');
     hamburger.addEventListener('click', handleHamburger);
@@ -62,6 +66,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={linkClicked}
             >
               About
             </Link>
@@ -73,6 +78,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={linkClicked}
             >
               Skills
             </Link>
@@ -84,6 +90,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={linkClicked}
             >
               Experience
             </Link>
@@ -95,6 +102,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={linkClicked}
             >
               Projects
             </Link>
@@ -106,6 +114,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={linkClicked}
             >
               Contact
             </Link>

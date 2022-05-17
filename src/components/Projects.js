@@ -30,13 +30,14 @@ const Projects = () => {
     {
       id: 2,
       title: 'BryantCobo.com',
-      url: 'https://www.bryantcobo.com',
+      url: 'https://bryantcobo.com',
       img: 'bryantcobo.png',
       desc: (
         <>
           <p>
             I created the website you're viewing now. The goal was to create a
-            fast and simple site using only HTML, CSS, and React.
+            fast and simple site using only HTML, CSS, and React. This site was
+            built from scratch, without a template.
           </p>
         </>
       ),
