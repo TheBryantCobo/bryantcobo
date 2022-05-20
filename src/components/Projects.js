@@ -30,7 +30,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'BryantCobo.com',
-      url: 'https://bryantcobo.com',
+      url: 'https://github.com/TheBryantCobo/bryantcobo',
       img: 'bryantcobo.png',
       desc: (
         <>
