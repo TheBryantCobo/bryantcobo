@@ -17,10 +17,18 @@ const App = () => {
         <div className='main--content'>
           <Intro />
           <About />
-          <Skills />
-          <Experience />
-          <Projects />
-          <Contact />
+          <div data-aos='fade-in'>
+            <Skills />
+          </div>
+          <div data-aos='fade-in'>
+            <Experience />
+          </div>
+          <div data-aos='fade-in'>
+            <Projects />
+          </div>
+          <div data-aos='fade-in'>
+            <Contact />
+          </div>
         </div>
         <div className='clearfix'></div>
         <Social />
